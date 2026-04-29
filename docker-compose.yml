@@ -17,7 +17,7 @@ services:
     depends_on:
       - db_kitty
     volumes:
-      - static:/static
+      - static:/app/backend_static
       - media:/app/media
 
   frontend_kitty:
